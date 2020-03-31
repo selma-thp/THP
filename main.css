@@ -1,0 +1,68 @@
+body
+{
+    height: 360px;
+    font-size: 14px;
+}
+
+#nav
+{
+text-align: right;
+display: flex;
+}
+
+.navelement:nth-child(1)
+{
+order: 1;
+}
+
+.navelement:nth-child(2)
+{
+    order: 2;
+}
+
+.elementlogo
+{
+    height: 92px;
+    width: 272;
+    margin: auto;
+
+}
+
+input
+{
+    margin: auto;
+    Width : 272;
+    padding: 50px;
+}
+
+#conteneurbouton
+{
+    display: flex;
+    width: 272px;
+    margin: auto;
+}
+
+.bouton:nth-child(1)
+{
+    order: 1;
+    
+}
+.bouton:nth-child(2)
+{
+    order: 2;
+}
+
+.elementup
+{
+    text-align: left;
+}
+
+.element down(1)
+{
+    order: 1;
+}
+
+a: :hover
+{
+    color : rgb(0,255,0);
+}
